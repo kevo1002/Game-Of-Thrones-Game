@@ -95,7 +95,7 @@
 		// 	$(".eventText").append("You beat " + $defName);
 		// 	opponentChosen = false;
 		// 	winCount++;
-		}
+		//}
 		if ((heroHealth < 1) && (opponentHealth > 0)) {
 			$(".eventText").append("<p>You have been defeated by " + $defName + "!</p>" + "<p>BETTER LUCK NEXT TIME!</p>");
 			gameLost = true;
